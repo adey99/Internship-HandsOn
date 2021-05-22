@@ -1,0 +1,1 @@
+select customer_id,customer_name, if(address is NULL,if(email_id is NULL,'NA',email_id),address) as CONTACT_DETAILS from customers;

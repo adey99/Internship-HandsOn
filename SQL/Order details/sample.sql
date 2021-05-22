@@ -1,0 +1,1 @@
+select order_id,customer_name,hotel_name,order_amount from orders,customers,hotel_details where orders.customer_id=customers.customer_id and hotel_details.hotel_id=orders.hotel_id order by order_id;

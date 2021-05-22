@@ -1,0 +1,1 @@
+select distinct(hotel_details.hotel_id),hotel_name,rating from hotel_details,orders where month(order_date)=7 and orders.hotel_id=hotel_details.hotel_id order by hotel_details.hotel_id;

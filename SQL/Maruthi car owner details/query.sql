@@ -1,0 +1,1 @@
+select distinct(owners.owner_id),owner_name,address,phone_no from owners,cars where car_name like '%Maruthi%' and cars.owner_id=owners.owner_id;

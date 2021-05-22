@@ -1,0 +1,1 @@
+alter table hotel_details change column rating Hotel_Rating int;
