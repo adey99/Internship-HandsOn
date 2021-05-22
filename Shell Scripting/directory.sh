@@ -1,0 +1,2 @@
+mkdir -p mydir/{colors/{basic,blended},shape,animals/{mammals,reptiles}}
+touch mydir/{colors/{basic/{red,blue,green},blended/{yellow,orange,pink}},shape/{circle,square,cube},animals/{mammals/{platypus,bat,dog},reptiles/{snakes,crocodile,lizard}}}
